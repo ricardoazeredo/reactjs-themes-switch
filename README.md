@@ -4,16 +4,16 @@ Este projeto faz parte de um repositório de funcionalidades para páginas web e
 Tem como base as bibliotecas: 
 
 #Styled-components:
-### yarn add styled-components
+### `yarn add styled-components`
 
 e a tipagens do typescript:
-### yarn add @types/styled-components -D
+### `yarn add @types/styled-components -D`
 
 Polished:
-### yarn add polished
+### `yarn add polished`
 
 react-switch:
-### yarn add react-switch
+### `yarn add react-switch`
 
 ## Iniciando o projeto depois de clonar o repositório
 
