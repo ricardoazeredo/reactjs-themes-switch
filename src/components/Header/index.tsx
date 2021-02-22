@@ -19,9 +19,9 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
       <Switch 
         onChange={toggleTheme}
         checked={title === 'dark'}        
-        handleDiameter={28}
-        height={30}
-        width={60}
+        handleDiameter={20}
+        height={24}
+        width={50}
         checkedIcon={
           <div
             style={{
@@ -29,7 +29,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
               justifyContent: "center",
               alignItems: "center",
               height: "100%",
-              fontSize: 15,
+              fontSize: 12,
               paddingRight: 2
             }}
           >
@@ -37,19 +37,19 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
           </div>
         }
         uncheckedIcon={
-          <div
+         ( <div
             style={{
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
               height: "100%",
-              fontSize: 15,
+              fontSize: 12,
               color: "orange",
               paddingRight: 2
             }}
           >
             Off
-          </div>
+          </div>)
         }       
        
         uncheckedHandleIcon={
@@ -60,7 +60,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
               alignItems: "center",
               height: "100%",
               color:"orange",
-              fontSize: 20
+              fontSize: 16
             }}
           ><BiSun />
           </div>
@@ -74,7 +74,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
               alignItems: "center",
               height: "100%",
               color: "blue",
-              fontSize: 18
+              fontSize: 16
             }}
           >
             <BiMoon />
