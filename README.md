@@ -12,8 +12,19 @@ e a tipagens do typescript:
 Polished:
 ### `yarn add polished`
 
-react-switch:
+react-switch: lib para adicionar e customizar o botão switch
+
+site exemplo: https://react-switch.netlify.app/
+
+GitHub: https://github.com/markusenglund/react-switch
 ### `yarn add react-switch`
+
+react-icons: inserção de ícones mais famosos no mundo dos apps. Adicionando-os no botão de switch para estilizá-lo. 
+
+Site: https://react-icons.github.io/react-icons/
+
+GitHub: https://github.com/react-icons/react-icons
+### `yarn add react-icons`
 
 ## Iniciando o projeto depois de clonar o repositório
 
